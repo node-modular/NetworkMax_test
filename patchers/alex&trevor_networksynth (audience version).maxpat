@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 10,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1852.0, 929.0 ],
+		"rect" : [ 423.0, 458.0, 1852.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -53,12 +53,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-89",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1860.166666666666515, 959.916665583848953, 207.0, 22.0 ],
-					"text" : "bp.Cloud::Fatness 0."
+					"patching_rect" : [ 1860.166666666666515, 959.916665583848953, 207.0, 35.0 ],
+					"text" : "bp.Quantizer::notes 0 1 1 2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 9 10 10 11 11 12"
 				}
 
 			}
@@ -253,7 +254,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1849.666666666666515, 869.0, 150.0, 34.0 ],
+					"patching_rect" : [ 1849.666666666666515, 869.0, 150.0, 33.0 ],
 					"text" : "pattrstorage for wireless synth controls"
 				}
 
@@ -266,8 +267,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 47.5, 1074.881514072418213, 122.0, 77.0 ],
-					"text" : ";\r\nfmcontrol Depth $1;\r\noscil CV2 $2;\r\ncloudosc Fatness $3;\r\nmacroOscil Color $4"
+					"patching_rect" : [ 47.5, 1074.881514072418213, 122.0, 76.0 ],
+					"text" : ";\rfmcontrol Depth $1;\roscil CV2 $2;\rcloudosc Fatness $3;\rmacroOscil Color $4"
 				}
 
 			}
@@ -376,8 +377,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -512,7 +511,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 47.371245225270627, 102.0, 97.0, 22.0 ],
+					"patching_rect" : [ 47.371245225270627, 40.0, 97.0, 22.0 ],
 					"text" : "udpreceive 9001"
 				}
 
@@ -795,7 +794,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1071,9 +1070,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontname" : [ "Arial Bold" ],
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1082,9 +1081,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontname" : [ "Arial Bold" ],
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1093,8 +1092,6 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -1104,7 +1101,9 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1142,7 +1141,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1418,9 +1417,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontname" : [ "Arial Bold" ],
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1429,9 +1428,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontname" : [ "Arial Bold" ],
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1440,8 +1439,6 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -1451,7 +1448,9 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1489,7 +1488,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1765,9 +1764,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontname" : [ "Arial Bold" ],
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1776,9 +1775,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontname" : [ "Arial Bold" ],
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1787,8 +1786,6 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -1798,7 +1795,9 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1836,7 +1835,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2112,9 +2111,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontname" : [ "Arial Bold" ],
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2123,9 +2122,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontname" : [ "Arial Bold" ],
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2134,8 +2133,6 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -2145,7 +2142,9 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-
+,
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4019,36 +4018,29 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "alex&trevor_networksynth_20210406.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Projects/alex&trevor_networksynth/data",
-				"patcherrelativepath" : "../data",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "bp.Xfade.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/alex&trevor_networksynth/patchers",
+				"bootpath" : "~/Desktop/Students_Network/alex&trevor_networksynth/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.cross1~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/alex&trevor_networksynth/patchers",
+				"bootpath" : "~/Desktop/Students_Network/alex&trevor_networksynth/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.FM.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/alex&trevor_networksynth/patchers",
+				"bootpath" : "~/Desktop/Students_Network/alex&trevor_networksynth/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Oscillator.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/alex&trevor_networksynth/patchers",
+				"bootpath" : "~/Desktop/Students_Network/alex&trevor_networksynth/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4079,137 +4071,137 @@
 			}
 , 			{
 				"name" : "AudioMix.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/alex&trevor_networksynth/patchers",
+				"bootpath" : "~/Desktop/Students_Network/alex&trevor_networksynth/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioSend.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/alex&trevor_networksynth/patchers",
+				"bootpath" : "~/Desktop/Students_Network/alex&trevor_networksynth/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioSend2.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/alex&trevor_networksynth/patchers",
+				"bootpath" : "~/Desktop/Students_Network/alex&trevor_networksynth/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioReceive.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/alex&trevor_networksynth/patchers",
+				"bootpath" : "~/Desktop/Students_Network/alex&trevor_networksynth/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioReceive2.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/alex&trevor_networksynth/patchers",
+				"bootpath" : "~/Desktop/Students_Network/alex&trevor_networksynth/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioOutput.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/alex&trevor_networksynth/patchers",
+				"bootpath" : "~/Desktop/Students_Network/alex&trevor_networksynth/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioEQ.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/alex&trevor_networksynth/patchers",
+				"bootpath" : "~/Desktop/Students_Network/alex&trevor_networksynth/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Gigaverb.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/alex&trevor_networksynth/patchers",
+				"bootpath" : "~/Desktop/Students_Network/alex&trevor_networksynth/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Sync Delay.maxpat",
-				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Effects",
+				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Effects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.bal2~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/alex&trevor_networksynth/patchers",
+				"bootpath" : "~/Desktop/Students_Network/alex&trevor_networksynth/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Cloud.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/alex&trevor_networksynth/patchers",
+				"bootpath" : "~/Desktop/Students_Network/alex&trevor_networksynth/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Macro Oscillator.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/alex&trevor_networksynth/patchers",
+				"bootpath" : "~/Desktop/Students_Network/alex&trevor_networksynth/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "background_sm.maxpat",
-				"bootpath" : "C74:/packages/Beap/misc",
+				"bootpath" : "C74:/packages/BEAP/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Detuned Ring Modulated Sines.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/alex&trevor_networksynth/patchers",
+				"bootpath" : "~/Desktop/Students_Network/alex&trevor_networksynth/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/alex&trevor_networksynth/patchers",
+				"bootpath" : "~/Desktop/Students_Network/alex&trevor_networksynth/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.LFO.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/alex&trevor_networksynth/patchers",
+				"bootpath" : "~/Desktop/Students_Network/alex&trevor_networksynth/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Quantizer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/alex&trevor_networksynth/patchers",
+				"bootpath" : "~/Desktop/Students_Network/alex&trevor_networksynth/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp_change_to_pulse.gendsp",
-				"bootpath" : "C74:/packages/Beap/misc",
+				"bootpath" : "C74:/packages/BEAP/misc",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.CV LFO.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/alex&trevor_networksynth/patchers",
+				"bootpath" : "~/Desktop/Students_Network/alex&trevor_networksynth/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "remote_client2.js",
-				"bootpath" : "~/Documents/Max 8/Projects/alex&trevor_networksynth/node_content",
+				"bootpath" : "~/Desktop/Students_Network/alex&trevor_networksynth/node_content",
 				"patcherrelativepath" : "../node_content",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -4574,9 +4566,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontname" : [ "Arial Bold" ],
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -4585,9 +4577,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontname" : [ "Arial Bold" ],
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 				}
 ,
 				"parentstyle" : "",
@@ -4596,8 +4588,6 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontface" : [ 1 ],
-					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -4607,7 +4597,9 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-
+,
+					"fontface" : [ 1 ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -4621,8 +4613,6 @@
 , 			{
 				"name" : "myCoolTheme",
 				"default" : 				{
-					"fontface" : [ 1 ],
-					"fontsize" : [ 12.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -4631,7 +4621,9 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-
+,
+					"fontface" : [ 1 ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
